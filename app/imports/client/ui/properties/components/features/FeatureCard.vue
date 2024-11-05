@@ -6,14 +6,14 @@
   >
     <template slot="toolbar">
       <v-toolbar-title>
-        <property-icon v-if="model.icon"
-          class="mr-2"
-          :model="model"
-          :color="model.color"
-        />
         {{ model.name }}
       </v-toolbar-title>
       <v-spacer />
+      <property-icon
+        class="ml-2"
+        :model="model"
+        :color="model.color"
+      />
     </template>
     <v-card-text v-if="summaryText">
       <property-description
