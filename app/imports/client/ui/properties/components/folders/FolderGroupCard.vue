@@ -35,7 +35,6 @@ import propComponents from '/imports/client/ui/properties/components/folders/pro
 import PropertyIcon from '/imports/client/ui/properties/shared/PropertyIcon.vue';
 
 export default {
-  components: { PropertyIcon }, 
   props: {
     model: {
       type: Object,
